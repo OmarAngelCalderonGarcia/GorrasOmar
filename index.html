@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gorras de Diablada - Cultura y Estilo</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo Diablada">
+        </div>
+        <div id="menu-icon" class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="menu">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#beneficios">Beneficios</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#testimonios">Testimonios</a></li>
+            <li><a href="#cta">Comprar</a></li>
+        </ul>
+    </nav>
+
+    <header class="header" id="inicio">
+        <div class="overlay">
+            <h1>¡Vive la magia del Carnaval con estilo!</h1>
+            <p>Gorras de Diablada exclusivas para el Carnaval del Bicentenario 2025</p>
+            <a href="#cta" class="boton">¡Compra tu gorra ahora!</a>
+        </div>
+    </header>
+
+    <section class="beneficios" id="beneficios">
+        <h2>¿Por qué elegir nuestras gorras?</h2>
+        <div class="beneficio">
+            <h3>Comodidad y Calidad</h3>
+            <p>Hechas con mucho cariño para que disfrutes de comodidad durante todo el día.</p>
+        </div>
+        <div class="beneficio">
+            <h3>Diseños Únicos</h3>
+            <p>Cada pieza es un homenaje a la cultura boliviana, con figuras icónicas de la Danza de la Diablada.</p>
+        </div>
+        <div class="beneficio">
+            <h3>Exclusividad</h3>
+            <p>Ediciones especiales del Carnaval 2025, que te hacen parte de una tradición única.</p>
+        </div>
+    </section>
+
+    <section class="galeria" id="galeria">
+        <h2>Explora nuestros diseños</h2>
+        <div class="productos">
+            <div class="producto">
+                <img src="img/diablo.jpg" alt="Gorra del Diablo">
+                <h3>Gorra del Diablo</h3>
+                <p>El símbolo de la fuerza y la pasión del Carnaval.</p>
+            </div>
+            <div class="producto">
+                <img src="img/oso.jpg" alt="Gorra del Oso">
+                <h3>Gorra del Oso</h3>
+                <p>La conexión con nuestra gente.</p>
+            </div>
+            <div class="producto">
+                <img src="img/angel.jpeg" alt="Gorra del Ángel">
+                <h3>Gorra del Ángel</h3>
+                <p>Un emblema de protección del Carnaval.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonios" id="testimonios">
+        <h2>Lo que dicen nuestros clientes</h2>
+        <div class="testimonio">
+            <p>“Las gorras no solo son cómodas, sino que me hacen sentir parte del Carnaval de Oruro. ¡Recomendadas al 100%!” - Mavel García</p>
+        </div>
+        <div class="testimonio">
+            <p>“Compré la Gorra del Diablo y es perfecta para este Carnaval. ¡No me la quito!” - Paola Cárdenas</p>
+        </div>
+    </section>
+
+    <section class="cta" id="cta">
+        <h2>¡Realiza tu pedido ahora!</h2>
+        <p>Prepara tu estilo para el Carnaval del Bicentenario 2025. ¡Compra ahora y no te quedes sin tu gorra!</p>
+
+        <section class="pedido">
+            <h2>Completa tu Pedido</h2>
+            <form action="#" method="POST" class="formulario-pedido">
+                <div class="campo">
+                    <label for="nombre">Nombre Completo:</label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Ingresa tu nombre completo">
+                </div>
+
+                <div class="campo">
+                    <label for="ciudad">Ciudad:</label>
+                    <select id="ciudad" name="ciudad" required>
+                        <option value="">Selecciona tu ciudad</option>
+                        <option value="La Paz">La Paz</option>
+                        <option value="Santa Cruz">Santa Cruz</option>
+                        <option value="Cochabamba">Cochabamba</option>
+                        <option value="Sucre">Sucre</option>
+                        <option value="Oruro">Oruro</option>
+                        <option value="Tarija">Tarija</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="producto">Diseño de la Gorra:</label>
+                    <select id="producto" name="producto" required>
+                        <option value="">Elige tu diseño</option>
+                        <option value="Diablo">Gorra del Diablo</option>
+                        <option value="Oso">Gorra del Oso</option>
+                        <option value="Ángel">Gorra del Ángel</option>
+                    </select>
+
+                    <label for="cantidad">Cantidad:</label>
+                    <input type="number" id="cantidad" name="cantidad" min="1" required placeholder="Número de gorras">
+                </div>
+
+                <div class="campo">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required placeholder="Ingresa tu correo electrónico">
+                </div>
+
+                <div class="campo">
+                    <button type="submit" class="boton">Enviar Pedido</button>
+                </div>
+            </form>
+        </section>
+    </section>
+
+    <footer class="footer">
+        <p>Gorras de Diablada - ¡Lleva el Carnaval en tu Estilo!</p>
+        <div class="redes">
+            <a href="https://www.facebook.com" target="_blank"><img src="icons/facebook-icon.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="icons/instagram-icon.png" alt="Instagram"></a>
+            <a href="https://twitter.com" target="_blank"><img src="icons/x-icon.png" alt="Twitter"></a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
